@@ -1,13 +1,10 @@
-import {UserButton} from '@clerk/nextjs'
+import { UserButton } from '@clerk/nextjs'
 
 
 const Page = () => {
     return (
-        <div>
-            <UserButton
-            afterSignOutUrl='/'
-            />
-           Page 
+        <div className=''>
+            Hello from App
         </div>
     );
 }
