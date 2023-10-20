@@ -4,7 +4,7 @@ import { UserButton } from '@clerk/nextjs'
 const Page = () => {
     return (
         <div className=''>
-            Hello from App
+            <div className='flex justify-center items-center'></div>
         </div>
     );
 }
